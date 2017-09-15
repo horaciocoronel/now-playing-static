@@ -195,3 +195,84 @@ figure {
 .about > p {
   margin: 0;
 }
+
+/* -------------------------------- */
+/*          MEDIA QUERIES             */
+/* ----------------------------------- */
+@media ( min-width: 768px ) {
+  
+  /* BASE STYLES */
+  body {
+    padding: 0;
+  }
+
+  /*
+  Show the overview on mobile devices
+  */
+  .movie-overview {
+  display: block;
+  }
+  
+  /* NAVIGATION */
+  .site-nav {
+    position: fixed;
+    left: 0;
+    width: 65px;
+    height: 100%;
+    z-index: 100;
+    background-color: #ffffff;
+    padding-top: 4.5rem;
+  }
+  .site-nav-item {
+    float: none;
+    display: block;
+    width: 100%;
+  }
+
+  .site-logo {
+    position: fixed;
+    top: 0.5rem;
+    left: 0.5rem;
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    z-index: 200;
+  }
+
+  /* MOVIE styles */
+  .movie {
+    position: relative;
+    margin-left: 65px;
+  }
+
+  /* FOOTER Styles */
+  .footer-nav {
+    width: 50%;
+    float: left;
+    display: inline-block;
+    font-size: 0.9rem;
+    padding-top: 1.2rem;
+  }
+
+  .about {
+    width: 50%;
+    display: inline-block;
+    background: none;
+  }
+
+  .about p {
+    font-size: 0.8rem;
+  }
+
+  .site-footer {
+    position: relative;
+    background-color: #333333;
+    color: white;
+    z-index: 300;
+  }
+
+
+}
+
+
+
