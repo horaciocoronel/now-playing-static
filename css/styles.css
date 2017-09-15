@@ -301,6 +301,7 @@ figure {
   
   .movie:first-child .movie-backdrop {
     display: block;
+    width: 100%;
   }
 
   .movie-backdrop {
@@ -336,6 +337,7 @@ figure {
     position: relative;
     clear: both;
   }
+
 }
 
 
